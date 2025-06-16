@@ -17,6 +17,7 @@ jupyter notebook
 ```bash
 docker build -t ml-env .
 docker run -p 8888:8888 -v $(pwd):/workspace ml-env
+```
 
 ### Option 3: VS Code Dev Container
 Ideal for GitHub Codespaces or working locally in Visual Studio Code.
